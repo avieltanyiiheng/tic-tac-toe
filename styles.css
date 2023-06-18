@@ -1,0 +1,15 @@
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+}
+
+.piece {
+  border: 1px solid black;
+  justify-self: center;
+  font-size: 200px;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
